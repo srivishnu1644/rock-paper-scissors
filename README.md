@@ -26,4 +26,4 @@ Simply open the `index.html` file in any modern web browser to start playing the
 
 ## Author
 
-Created by Vishnu Sridhar.
+Created by Sri Vishnu.
