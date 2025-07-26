@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 1em;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8935f7d5;
+    padding: 2rem;
+    
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    gap : 5em;
+}
+
+.choice {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.choice:hover {
+    background-color: #000;
+    border-radius: 50%;
+    color: #000;
+    transform: scale(1.1);
+    height: 200px;
+    width: 200px;
+}
+
+.choice img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 10px;
+
+}
+
+.choice p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.result {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.scoreboard {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 0;
+    
+}
+
+.scoreboard h3 {
+
+    margin: 0;
+    font-size: 2em;
+    color: black;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-left: 48em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}
